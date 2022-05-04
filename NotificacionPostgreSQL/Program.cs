@@ -22,7 +22,7 @@ namespace NotificacionPostgreSQL
 
         public static void SuscribirseALosCambiosDeLaTablaListado()
         {
-            const string connString = "host=localhost;Database=db_piscrum;Username=postgres;Password=Learn5503";
+            const string connString = "host=localhost;Database=db;Username=postgres;Password=pass";
             using (var conn=new NpgsqlConnection(connString))
             {
                 conn.Open();
